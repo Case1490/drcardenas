@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --CyanMain: #50A6B2;
+  --PinkMain: #F193A6;
+  --PurpleMain: #907DA4;
+  --PinkLow: #F7C1CF;
+  --BrownMain: #CC907E;
+}
+
+html{
+  font-family: "Poppins", sans-serif;
+}
+
+.shadow_image{
+  filter: drop-shadow(10px 10px 30px var(--CyanMain));
+}
+
+/* SOCIAL NETWORKS */
+/* From Uiverse.io by ubaidi10 */
+.card {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 25px;
+  gap: 20px;
+}
+
+/* for all social containers*/
+.socialContainer {
+  width: 52px;
+  height: 52px;
+  border-radius: 25px;
+  background-color: var(--PurpleMain);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: 0.3s;
+}
+
+/* instagram*/
+.containerOne:hover {
+  background-color: #d62976;
+  transition-duration: 0.3s;
+  transform: scale(1.5);
+  border-radius: 15px;
+}
+
+/* twitter*/
+.containerTwo:hover {
+  background-color: #00acee;
+  transition-duration: 0.3s;
+  transform: scale(1.5);
+  border-radius: 15px;
+}
+
+/* linkdin*/
+.containerThree:hover {
+  background-color: #0072b1;
+  transition-duration: 0.3s;
+  transform: scale(1.5);
+  border-radius: 15px;
+}
+
+/* Whatsapp*/
+.containerFour:hover {
+  background-color: #25d366;
+  transition-duration: 0.3s;
+  transform: scale(1.5);
+  border-radius: 15px;
+}
+
+.socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: 0.3s;
+}
+
+.socialSvg {
+  width: 17px;
+}
+
+.socialSvg path {
+  fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.card:has(.socialContainer:hover) .socialContainer:not(:hover) {
+  opacity: 0.1;
+}
