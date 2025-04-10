@@ -6,6 +6,7 @@ const MainPage = () => {
     <>
       <Navbar />
       <WelcomePresentation />
+      xddd
     </>
   );
 };
