@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import AboutOfMe from "../sections/AboutOfMe";
 import WelcomePresentation from "../sections/WelcomePresentation";
 
 const MainPage = () => {
@@ -6,7 +7,7 @@ const MainPage = () => {
     <>
       <Navbar />
       <WelcomePresentation />
-      xddd
+      <AboutOfMe />
     </>
   );
 };

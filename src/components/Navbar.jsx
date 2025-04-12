@@ -2,9 +2,9 @@ import Logo from "../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <div className="">
+    <div className="fixed w-full bg-white z-[1000]">
       <div className=" w-5/6 m-auto flex items-center justify-between py-2">
-        <div className="w-[220px]">
+        <div className="w-[180px]">
           <img src={Logo} alt="Logo" className="w-full" />
         </div>
 
