@@ -1,4 +1,4 @@
-import PhotoDrCardenas from "../assets/fotos/CALADO 10.png";
+import PhotoDrCardenas from "../assets/fotos/CALADO 7.png";
 import CirclePurple from "../assets/circle.png";
 
 // IMPORT OF ICONS
@@ -33,10 +33,14 @@ const AboutOfMe = () => {
         <img
           src={CirclePurple}
           alt=""
-          className="w-full h-[580px] absolute inset-0"
+          className="w-full h-[590px] absolute inset-0"
         />
         <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[300px]">
-          <img src={PhotoDrCardenas} alt="Dr Cardenas" className="w-full" />
+          <img
+            src={PhotoDrCardenas}
+            alt="Dr Cardenas"
+            className="w-full shadow_image"
+          />
         </div>
       </div>
       <div className="w-1/2">
@@ -57,13 +61,13 @@ const AboutOfMe = () => {
           {dataItems.map((item, index) => (
             <div
               key={index}
-              className="flex items-center space-x-2 border py-2 px-2 rounded-xl shadow-xl w-[290px] bg-PurpleMain"
+              className="flex items-center space-x-2 border py-2 px-2 rounded-xl shadow-xl w-[290px]"
             >
-              <div className="bg-PinkMain text-white p-4 rounded-full">
+              <div className="bg-CyanMain text-white p-4 rounded-full">
                 {item.icon}
               </div>
               <div>
-                <p className=" text-lg text-white">{item.text}</p>
+                <p className=" text-lg">{item.text}</p>
               </div>
             </div>
           ))}

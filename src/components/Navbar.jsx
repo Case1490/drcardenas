@@ -36,7 +36,7 @@ const Navbar = () => {
 
         <nav className="w-1/2">
           <ul className="flex justify-between items-center text-lg">
-            <li className="font-bold">Inicio</li>
+            <li className="font-bold text-PurpleMain">Inicio</li>
             <li>Sobre mí</li>
             <li>Servicios</li>
             <li>Testimonios</li>
