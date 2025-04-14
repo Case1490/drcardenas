@@ -20,6 +20,13 @@ html{
   filter: drop-shadow(15px 10px 15px rgba(0, 0, 0, 0.6));
 }
 
+.mask-image {
+  mask-image: linear-gradient(
+    black 80%,
+    transparent
+  );
+}
+
 .bgCardenas{
   background-image: url('./assets/7180300.jpg');
   background-position: center center;

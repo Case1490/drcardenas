@@ -28,7 +28,7 @@ const AboutOfMe = () => {
   ];
 
   return (
-    <div className="w-5/6 m-auto flex items-center justify-around py-8">
+    <div className="w-5/6 m-auto flex items-center justify-around py-14">
       <div className="relative rounded-full overflow-hidden w-[590px] h-[500px]">
         <img
           src={CirclePurple}

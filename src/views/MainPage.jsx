@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import AboutOfMe from "../sections/AboutOfMe";
+import Services from "../sections/Services";
 import WelcomePresentation from "../sections/WelcomePresentation";
 
 const MainPage = () => {
@@ -8,6 +9,7 @@ const MainPage = () => {
       <Navbar />
       <WelcomePresentation />
       <AboutOfMe />
+      <Services />
     </>
   );
 };
