@@ -1,5 +1,16 @@
 import ServicesPhoto from "../assets/fotos/CALADO 6.png";
 import CardService from "../components/CardService";
+import ButtonService from "../components/ButtonService";
+
+// IMPORT PHOTOS OF SERVICES
+import Image1 from "../assets/servicios/1.jpg";
+import Image2 from "../assets/servicios/2.jpg";
+import Image3 from "../assets/servicios/3.jpg";
+import Image4 from "../assets/servicios/4.jpg";
+import Image5 from "../assets/servicios/5.jpg";
+import Image6 from "../assets/servicios/6.jpg";
+import Image7 from "../assets/servicios/7.jpg";
+import Image8 from "../assets/servicios/8.jpg";
 
 const Services = () => {
   return (
@@ -15,13 +26,25 @@ const Services = () => {
           mejor atención médica posible.
         </p>
 
-        <div className="flex my-20 justify-between items-center">
+        <div className="flex mt-20 mb-10 justify-between items-center">
           {/* FIRST COLUMN */}
           <div className="space-y-10">
-            <CardService />
-            <CardService />
-            <CardService />
-            <CardService />
+            <CardService
+              image={Image1}
+              service="Diagnóstico integral de neoplasias ginecológicas"
+            />
+            <CardService
+              image={Image2}
+              service="Cirugía oncológica ginecológica especializada"
+            />
+            <CardService
+              image={Image3}
+              service="Cirugías mínimamente invasivas"
+            />
+            <CardService
+              image={Image4}
+              service="Cirugía profiláctica en pacientes de alto riesgo"
+            />
           </div>
           {/* PHOTO CENTRAL */}
           <div className="w-[400px]">
@@ -33,12 +56,25 @@ const Services = () => {
           </div>
           {/* SECOND COLUMN */}
           <div className="space-y-10">
-            <CardService />
-            <CardService />
-            <CardService />
-            <CardService />
+            <CardService
+              image={Image5}
+              service="Cirugía reconstructiva y preservación de fertilidad"
+            />
+            <CardService
+              image={Image6}
+              service="Planificación de tratamiento multidisciplinario"
+            />
+            <CardService
+              image={Image7}
+              service="Seguimiento postoperatorio y control de recaídas"
+            />
+            <CardService
+              image={Image8}
+              service="Acompañamiento emocional y educativo al paciente"
+            />
           </div>
         </div>
+        <ButtonService />
       </div>
     </div>
   );
