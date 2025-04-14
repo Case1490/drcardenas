@@ -132,9 +132,13 @@ html{
 
 /* BUTTON SERVICE */
 /* From Uiverse.io by MuhammadHasann */
-button {
+.btn-service {
   position: relative;
-  padding: 12px 35px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin: auto;
+  padding: 12px 20px;
   background: var(--PurpleMain);
   font-size: 17px;
   font-weight: 700;
@@ -211,13 +215,13 @@ button {
   transition: all 0.8s ease;
 }
 
-button:hover {
+.btn-service:hover {
   background: var(--PurpleMain);
   color: #fff;
-  box-shadow: 0 0 25px #fec1958c;
+  box-shadow: 0 0 25px var(--PinkLow);
 }
 
-button:hover .star-1 {
+.btn-service:hover .star-1 {
   position: absolute;
   top: -80%;
   left: -30%;
@@ -227,7 +231,7 @@ button:hover .star-1 {
   z-index: 2;
 }
 
-button:hover .star-2 {
+.btn-service:hover .star-2 {
   position: absolute;
   top: -25%;
   left: 10%;
@@ -237,7 +241,7 @@ button:hover .star-2 {
   z-index: 2;
 }
 
-button:hover .star-3 {
+.btn-service:hover .star-3 {
   position: absolute;
   top: 55%;
   left: 25%;
@@ -247,7 +251,7 @@ button:hover .star-3 {
   z-index: 8;
 }
 
-button:hover .star-4 {
+.btn-service:hover .star-4 {
   position: absolute;
   top: 30%;
   left: 80%;
@@ -257,7 +261,7 @@ button:hover .star-4 {
   z-index: 2;
 }
 
-button:hover .star-5 {
+.btn-service:hover .star-5 {
   position: absolute;
   top: 25%;
   left: 115%;
@@ -267,7 +271,7 @@ button:hover .star-5 {
   z-index: 2;
 }
 
-button:hover .star-6 {
+.btn-service:hover .star-6 {
   position: absolute;
   top: 5%;
   left: 60%;
@@ -279,4 +283,13 @@ button:hover .star-6 {
 
 .fil0 {
   fill: var(--PurpleMain);
+}
+
+/* REASONS DOCTOR SECTION */
+.bg-reasons{
+  background-image: url('./assets/razones.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }

@@ -1,8 +1,9 @@
-import React from "react";
+import { FaWhatsapp } from "react-icons/fa";
 
 const ButtonService = () => {
   return (
-    <button>
+    <button className="btn-service">
+      <FaWhatsapp size={25} />
       Separar cita
       <div className="star-1">
         <svg
