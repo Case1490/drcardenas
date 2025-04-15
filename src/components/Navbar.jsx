@@ -30,7 +30,7 @@ const Navbar = () => {
   return (
     <div className={navbarClass}>
       <div className="w-5/6 m-auto flex items-center justify-between py-2">
-        <div className="w-[180px]">
+        <div className="w-[200px]">
           <img src={Logo} alt="Logo" className="w-full" />
         </div>
 

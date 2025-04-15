@@ -1,5 +1,5 @@
 import PhotoDrCardenas from "../assets/fotos/CALADO 7.png";
-import CirclePurple from "../assets/circle.png";
+import CirclePurple from "../assets/circulo.png";
 
 // IMPORT OF ICONS
 import { BsFileEarmarkMedicalFill } from "react-icons/bs";
