@@ -286,7 +286,8 @@ html{
 }
 
 /* REASONS DOCTOR SECTION */
-.bg-reasons{
+.bg-reasons {
+  position: relative;
   background-image: url('./assets/razones.jpg');
   background-position: center center;
   background-size: cover;

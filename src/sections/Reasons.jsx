@@ -1,4 +1,5 @@
 import ImageReasons from "../assets/fotos/CALADO 15.png";
+import { FaCheckCircle } from "react-icons/fa";
 
 const Reasons = () => {
   const razones = [
@@ -13,8 +14,8 @@ const Reasons = () => {
   ];
 
   return (
-    <div className=" bg-PinkLow">
-      <div className="w-[90%] m-auto flex justify-between items-center min-h-screen px-8">
+    <div className=" bg-reasons">
+      <div className="w-[90%] m-auto flex justify-center space-x-10 items-center min-h-screen px-8">
         <div className="w-[400px]">
           <img
             src={ImageReasons}
@@ -26,17 +27,17 @@ const Reasons = () => {
           <h1 className="text-5xl font-bold text-PurpleMain mb-6">
             ¿Por qué elegirme como tu cirujano oncólogo?
           </h1>
-          <p className="mb-8 text-lg">
+          <p className="mb-8 text-lg font-bold ">
             Elegir a un cirujano oncólogo significa confiar en un especialista
             altamente capacitado para tratar tumores con precisión, experiencia
             y enfoque integral.
           </p>
 
-          <div className="relative border-l-4 border-PurpleMain pl-6 space-y-8">
+          <div className="relative border-l-4 border-PurpleMain pl-6 space-y-10">
             {razones.map((razon, index) => (
-              <div key={index} className="relative">
-                <div className="absolute -left-5 top-1 w-4 h-4 bg-PurpleMain rounded-full border-4 border-white"></div>
-                <p className=" bg-CyanMain text-white py-1 px-2 rounded-2xl font-bold text-base">
+              <div key={index} className="relative space-x-2">
+                <FaCheckCircle className="absolute -left-5 top-1 text-PurpleMain text-xl" />
+                <p className="bg-CyanMain inline-block text-white py-1 px-2 rounded-2xl font-bold text-base">
                   {razon}
                 </p>
               </div>
