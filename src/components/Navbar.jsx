@@ -39,7 +39,6 @@ const Navbar = () => {
             <li className="font-bold text-PurpleMain">Inicio</li>
             <li>Sobre mí</li>
             <li>Servicios</li>
-            <li>Testimonios</li>
             <li className="bg-CyanMain text-white py-2 px-3 rounded-full">
               Contacto
             </li>
