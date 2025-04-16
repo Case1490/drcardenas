@@ -291,3 +291,54 @@ html{
   background-color: #efefec;
   min-height: 100vh;
 }
+
+.mission-container {
+  position: relative;
+  width: 50%;
+  background-color: var(--PurpleMain);
+  /* o usa tu color Tailwind aproximado */
+  color: white;
+  overflow: hidden;
+}
+
+.mission-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("./assets/mision.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+  /* Controla la visibilidad del fondo */
+  z-index: 0;
+}
+
+.vision-container {
+  position: relative;
+  width: 50%;
+  background-color: #00bcd4;
+  /* CyanMain */
+  color: white;
+  overflow: hidden;
+}
+
+.vision-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("./assets/vision.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  width: 66.666667%;
+  /* equivalente a w-2/3 */
+  margin: auto;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
