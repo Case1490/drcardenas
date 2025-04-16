@@ -1,4 +1,4 @@
-import ImageReasons from "../assets/fotos/CALADO 15.png";
+import ImageReasons from "../assets/fotos/CALADO 152.png";
 import { FaCheckCircle } from "react-icons/fa";
 
 const Reasons = () => {
@@ -16,18 +16,11 @@ const Reasons = () => {
   return (
     <div className=" bg-reasons">
       <div className="w-[90%] m-auto flex justify-center space-x-10 items-center min-h-screen px-8">
-        <div className="w-[400px]">
-          <img
-            src={ImageReasons}
-            alt="Dr Cardenas"
-            className="w-full mask-image"
-          />
-        </div>
         <div className="w-full md:w-1/2 py-12">
           <h1 className="text-5xl font-bold text-PurpleMain mb-6">
             ¿Por qué elegirme como tu cirujano oncólogo?
           </h1>
-          <p className="mb-8 text-lg font-bold ">
+          <p className="mb-8 text-lg text-slate-600 font-bold ">
             Elegir a un cirujano oncólogo significa confiar en un especialista
             altamente capacitado para tratar tumores con precisión, experiencia
             y enfoque integral.
@@ -43,6 +36,14 @@ const Reasons = () => {
               </div>
             ))}
           </div>
+        </div>
+
+        <div className="w-[500px]">
+          <img
+            src={ImageReasons}
+            alt="Dr Cardenas"
+            className="w-full mask-image"
+          />
         </div>
       </div>
     </div>
