@@ -1,4 +1,7 @@
 import ValueCard from "../components/ValueCard";
+import { MdGrade } from "react-icons/md";
+import { FaStopwatch20 } from "react-icons/fa";
+import { FaLightbulb } from "react-icons/fa";
 
 const Values = () => {
   return (
@@ -9,9 +12,9 @@ const Values = () => {
       <div className="border-2 border-PurpleMain w-24 m-auto"></div>
 
       <div className="flex items-center justify-center gap-x-6 my-8">
-        <ValueCard title="calidad" />
-        <ValueCard title="puntualidad" />
-        <ValueCard title="innovación" />
+        <ValueCard title="calidad" icon={MdGrade} />
+        <ValueCard title="puntualidad" icon={FaStopwatch20} />
+        <ValueCard title="innovación" icon={FaLightbulb} />
       </div>
     </div>
   );
