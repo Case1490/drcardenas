@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import AboutOfMe from "../sections/AboutOfMe";
+import Contact from "../sections/Contact";
 import MissionVision from "../sections/MissionVision";
 import Reasons from "../sections/Reasons";
 import Services from "../sections/Services";
@@ -16,6 +17,7 @@ const MainPage = () => {
       <MissionVision />
       <Values />
       <Reasons />
+      <Contact />
     </>
   );
 };
