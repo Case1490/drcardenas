@@ -26,7 +26,7 @@ const Services = () => {
           mejor atención médica posible.
         </p>
 
-        <div className="flex mt-20 mb-10 justify-between items-center">
+        <div className="flex flex-col md:flex-row mt-20 mb-10 justify-between items-center">
           {/* FIRST COLUMN */}
           <div className="space-y-10">
             <CardService
@@ -47,7 +47,7 @@ const Services = () => {
             />
           </div>
           {/* PHOTO CENTRAL */}
-          <div className="w-[400px]">
+          <div className="w-0 lg:w-[400px]">
             <img
               src={ServicesPhoto}
               alt="Dr Cardenas"

@@ -13,14 +13,16 @@ import { FaLinkedinIn } from "react-icons/fa6";
 const DataOfDoctor = () => {
   return (
     <div className=" w-5/6 m-auto flex items-center justify-center">
-      <div className="w-[400px]">
+      <div className="w-0 lg:w-[400px]">
         <img src={ContactImage} alt="Dr Cardenas" className="w-full" />
       </div>
 
       {/* CARD DATA */}
-      <div className=" shadow-2xl p-6 rounded-xl w-1/2 bg-CyanMain text-white">
-        <h1 className="text-3xl font-bold mb-3 uppercase">Ponte en contacto</h1>
-        <p>
+      <div className=" shadow-2xl p-6 rounded-xl mb-5 lg:mb-0 w-full lg:w-1/2 bg-CyanMain text-white">
+        <h1 className="text-3xl font-bold mb-3 uppercase text-center lg:text-start">
+          Ponte en contacto
+        </h1>
+        <p className="text-center lg:text-start">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, ut!
           elit. Eaque, ut!
         </p>
@@ -59,12 +61,12 @@ const DataOfDoctor = () => {
             <p>Lorem ipsum dolor sit.</p>
           </div>
         </div>
-        <div className=" mt-8">
+        <div className=" mt-8 text-center lg:text-start">
           <h1 className="text-2xl font-bold">
             Síguenos en nuestras redes sociales:
           </h1>
 
-          <div className="flex mt-4 space-x-4">
+          <div className="flex mt-4 space-x-4 justify-center lg:justify-start">
             <div className="bg-PinkMain rounded-full p-2">
               <FaFacebookF size={25} />
             </div>

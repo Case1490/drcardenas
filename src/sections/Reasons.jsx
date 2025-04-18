@@ -15,9 +15,9 @@ const Reasons = () => {
 
   return (
     <div className=" bg-reasons">
-      <div className="w-[90%] m-auto flex justify-center space-x-10 items-center min-h-screen px-8">
-        <div className="w-full md:w-1/2 py-12">
-          <h1 className="text-5xl font-bold text-PurpleMain mb-6">
+      <div className="w-[90%] m-auto flex flex-col lg:flex-row justify-center space-x-10 items-center min-h-screen px-8">
+        <div className="w-full lg:w-1/2 py-12">
+          <h1 className="text-4xl sm:text-5xl font-bold text-PurpleMain mb-6">
             ¿Por qué elegirme como tu cirujano oncólogo?
           </h1>
           <p className="mb-8 text-lg text-slate-600 font-bold ">
@@ -38,7 +38,7 @@ const Reasons = () => {
           </div>
         </div>
 
-        <div className="w-[500px]">
+        <div className=" w-[400px] -m-24 lg:m-0 lg:w-[500px]">
           <img
             src={ImageReasons}
             alt="Dr Cardenas"

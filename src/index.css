@@ -1,37 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root{
-  --CyanMain: #50A6B2;
-  --PinkMain: #F193A6;
-  --PurpleMain: #907DA4;
-  --PinkLow: #F7C1CF;
-  --BrownMain: #CC907E;
+:root {
+  --CyanMain: #50a6b2;
+  --PinkMain: #f193a6;
+  --PurpleMain: #907da4;
+  --PinkLow: #f7c1cf;
+  --BrownMain: #cc907e;
 }
 
-html{
+html {
   font-family: "Poppins", sans-serif;
 }
 
-.shadow_image{
+.shadow_image {
   filter: drop-shadow(15px 10px 15px rgba(0, 0, 0, 0.5));
 }
 
 .mask-image {
-  mask-image: linear-gradient(
-    black 80%,
-    transparent
-  );
+  mask-image: linear-gradient(black 80%, transparent);
 }
 
-.bgCardenas{
-  background-image: url('./assets/bienvenida.jpg');
+.bgCardenas {
+  background-image: url("./assets/bienvenida.jpg");
   background-position: center center;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   background-repeat: no-repeat;
   overflow-y: hidden;
 }
@@ -49,6 +46,15 @@ html{
   gap: 20px;
 }
 
+@media (max-width: 1024px) {
+  .card {
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+    }
+}
+
 /* for all social containers*/
 .socialContainer {
   width: 52px;
@@ -61,8 +67,8 @@ html{
   overflow: hidden;
   transition-duration: 0.3s;
   -webkit-box-shadow: 10px 10px 25px 1px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 25px 1px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 10px 25px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 25px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 25px 1px rgba(0, 0, 0, 0.75);
 }
 
 /* instagram*/
@@ -301,6 +307,12 @@ html{
   overflow: hidden;
 }
 
+@media (max-width: 1024px) {
+  .mission-container {
+    width: 100%;
+  }
+}
+
 .mission-container::before {
   content: "";
   position: absolute;
@@ -320,6 +332,12 @@ html{
   /* CyanMain */
   color: white;
   overflow: hidden;
+}
+
+@media (max-width: 1024px) {
+  .vision-container {
+    width: 100%;
+  }
 }
 
 .vision-container::before {
@@ -343,9 +361,15 @@ html{
   padding-bottom: 2.5rem;
 }
 
+@media (max-width: 600px) {
+  .content {
+      width: 90%;
+    }
+}
+
 /* CONTACT SECTION */
 .bg-contact {
-  background-image: url('./assets/contacto.jpg');
+  background-image: url("./assets/contacto.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -360,7 +384,7 @@ html{
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #907DA4;
+  background-color: #907da4;
   opacity: 0.5;
   z-index: 10;
 }

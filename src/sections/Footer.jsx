@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div className=" bg-PurpleMain text-white">
       <div className="w-5/6 m-auto py-5">
-        <div className="flex justify-between items-center mb-2">
+        <div className="flex flex-col space-y-8 md:space-y-0 mb-6 sm:flex-row justify-between items-center md:mb-2">
           <div className="w-[240px]">
             <img src={Logo} alt="Logo" className="w-full" />
           </div>
@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
         <hr />
 
-        <div className="flex items-center justify-between py-5">
+        <div className="flex flex-col md:flex-row space-y-10 md:space-y-0 items-center justify-between py-5">
           <div className="flex-1 text-justify">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
             unde, debitis aperiam sequi maiores vitae sunt eum quasi aliquam,
@@ -57,7 +57,7 @@ const Footer = () => {
 
         <hr />
 
-        <div className="flex items-center justify-between pt-4">
+        <div className="flex flex-col text-center sm:text-start space-y-6 sm:space-y-0 sm:flex-row items-center justify-between pt-4">
           <p>Copyright &copy; Dr Cardenas, Todos los derechos reservados</p>
 
           <div>

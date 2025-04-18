@@ -5,18 +5,18 @@ import DoctorMision from "../assets/fotos/CALADO 3.png";
 
 const MissionVision = () => {
   return (
-    <div className="relative flex my-10 overflow-y-hidden">
+    <div className="relative flex flex-col lg:flex-row my-10 overflow-y-hidden">
       {/* Imagen centrada */}
       <img
         src={DoctorMision}
         alt="Doctor Misión"
-        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[220px] z-10"
+        className="absolute left-1/2 bottom-0 -translate-x-1/2 w-0 lg:w-[200px] z-10"
       />
 
       {/* Misión */}
       <div className="mission-container">
-        <div className="content">
-          <div className="flex items-center gap-1 mb-4">
+        <div className="content text-center lg:text-start">
+          <div className="flex items-center justify-center lg:justify-start gap-1 mb-4">
             <GiStairsGoal size={40} />
             <h1 className="text-4xl font-bold">Misión</h1>
           </div>
@@ -34,8 +34,8 @@ const MissionVision = () => {
 
       {/* Visión */}
       <div className="vision-container">
-        <div className="content text-end">
-          <div className="flex items-center justify-end gap-1 mb-4">
+        <div className="content text-center lg:text-end">
+          <div className="flex items-center justify-center lg:justify-end gap-1 mb-4">
             <MdOutlineInsights size={40} />
             <h1 className="text-4xl font-bold">Visión</h1>
           </div>

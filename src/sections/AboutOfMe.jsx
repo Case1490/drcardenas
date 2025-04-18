@@ -28,14 +28,14 @@ const AboutOfMe = () => {
   ];
 
   return (
-    <div className="w-5/6 m-auto flex items-center justify-around py-14">
-      <div className="relative rounded-full overflow-hidden w-[590px] h-[500px]">
+    <div className="w-5/6 m-auto flex flex-col xl:flex-row items-center justify-around py-14">
+      <div className="relative rounded-full overflow-hidden w-[450px] h-[390px] sm:w-[590px] sm:h-[500px] order-2 xl:order-1">
         <img
           src={CirclePurple}
           alt=""
-          className="w-full h-[590px] absolute inset-0"
+          className="w-full h-[450px] sm:h-[590px] absolute inset-0"
         />
-        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[300px]">
+        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[220px] sm:w-[300px]">
           <img
             src={PhotoDrCardenas}
             alt="Dr Cardenas"
@@ -43,7 +43,7 @@ const AboutOfMe = () => {
           />
         </div>
       </div>
-      <div className="w-1/2">
+      <div className=" w-[90%] xl:w-1/2 order-1 xl:order-2">
         <h1 className="text-3xl font-bold mb-2">
           Entre Tijeras y Esperanzas: La Trayectoria Quirúrgica de un Héroe
           Contra el Cáncer
@@ -57,11 +57,11 @@ const AboutOfMe = () => {
           quaerat rem voluptates reprehenderit.
         </p>
 
-        <div className="mt-8 grid grid-cols-2 gap-4">
+        <div className="mt-8 grid md:grid-cols-2 place-content-center place-items-center gap-4">
           {dataItems.map((item, index) => (
             <div
               key={index}
-              className="flex items-center space-x-2 border py-2 px-2 rounded-xl shadow-xl w-[290px]"
+              className="flex items-center space-x-2 border py-2 px-2 rounded-xl shadow-xl w-full md:w-[290px]"
             >
               <div className="bg-CyanMain text-white p-4 rounded-full">
                 {item.icon}

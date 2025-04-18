@@ -9,8 +9,10 @@ const Contact = () => {
         <div className="overlay"></div>
         <div className="h-full flex items-center justify-center text-center text-white z-30 relative">
           <div>
-            <h1 className="text-5xl uppercase font-bold mb-4">Contáctame</h1>
-            <p className=" w-[70%] m-auto">
+            <h1 className=" text-4xl sm:text-5xl uppercase font-bold mb-4">
+              Contáctame
+            </h1>
+            <p className=" w-[90%] sm:w-[70%] m-auto">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
               sapiente assumenda vero dicta debitis velit nulla sunt, reiciendis
               quia iure.

@@ -6,12 +6,12 @@ import { FaLightbulb } from "react-icons/fa";
 const Values = () => {
   return (
     <div className="w-5/6 m-auto my-16">
-      <h1 className="text-center text-5xl font-bold text-PurpleMain mb-2">
+      <h1 className="text-center text-4xl sm:text-5xl font-bold text-PurpleMain mb-2">
         Mis valores
       </h1>
       <div className="border-2 border-PurpleMain w-24 m-auto"></div>
 
-      <div className="flex items-center justify-center gap-x-6 my-8">
+      <div className="flex items-center flex-wrap lg:flex-nowrap gap-y-6 lg:gap-y-0  justify-center gap-x-6 my-8">
         <ValueCard title="calidad" icon={MdGrade} />
         <ValueCard title="puntualidad" icon={FaStopwatch20} />
         <ValueCard title="innovación" icon={FaLightbulb} />

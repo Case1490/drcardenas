@@ -1,6 +1,6 @@
 const ContactForm = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen px-4 -mt-[190px] relative z-40">
+    <div className="flex justify-center items-center min-h-screen px-4 -mt-[170px] sm:-mt-[190px] mb-10 sm:mb-0 relative z-40">
       <form className="bg-white p-10 rounded-2xl shadow-2xl w-full max-w-2xl">
         <h2 className="text-2xl font-semibold mb-6 text-gray-800 text-center">
           Envíame un mensaje
