@@ -6,6 +6,7 @@
 
 :root {
   --CyanMain: #50a6b2;
+  --CyanMain2: #4ac7d5;
   --PinkMain: #f193a6;
   --PurpleMain: #907da4;
   --PinkLow: #f7c1cf;
@@ -81,7 +82,7 @@ html {
 
 /* twitter*/
 .containerTwo:hover {
-  background-color: #00acee;
+  background-color: #1800ee;
   transition-duration: 0.3s;
   transform: scale(1.5);
   border-radius: 15px;

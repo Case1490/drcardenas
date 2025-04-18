@@ -67,16 +67,16 @@ const DataOfDoctor = () => {
           </h1>
 
           <div className="flex mt-4 space-x-4 justify-center lg:justify-start">
-            <div className="bg-PinkMain rounded-full p-2">
+            <div className="bg-PinkMain hover:bg-PurpleMain cursor-pointer rounded-full p-2">
               <FaFacebookF size={25} />
             </div>
-            <div className="bg-PinkMain rounded-full p-2">
+            <div className="bg-PinkMain hover:bg-PurpleMain cursor-pointer rounded-full p-2">
               <AiFillInstagram size={25} />
             </div>
-            <div className="bg-PinkMain rounded-full p-2">
+            <div className="bg-PinkMain hover:bg-PurpleMain cursor-pointer rounded-full p-2">
               <AiOutlineTikTok size={25} />
             </div>
-            <div className="bg-PinkMain rounded-full p-2">
+            <div className="bg-PinkMain hover:bg-PurpleMain cursor-pointer rounded-full p-2">
               <FaLinkedinIn size={25} />
             </div>
           </div>

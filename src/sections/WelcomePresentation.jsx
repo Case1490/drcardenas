@@ -40,10 +40,10 @@ const WelcomePresentation = () => {
               humano y profesional para cuidar lo más importante: tu salud
             </p>
             <div className="flex justify-center lg:justify-start items-center mt-8 mb-14 space-x-4">
-              <a className="bg-CyanMain py-2 px-4 rounded-xl text-white font-bold text-lg uppercase">
+              <a className="bg-CyanMain cursor-pointer hover:bg-CyanMain2 py-2 px-4 rounded-xl text-white font-bold text-lg uppercase">
                 Contáctanos
               </a>
-              <a className="border-CyanMain text-CyanMain font-bold border-2 py-2 px-4 rounded-xl text-lg uppercase">
+              <a className="border-CyanMain cursor-pointer hover:bg-slate-100 text-CyanMain font-bold border-2 py-2 px-4 rounded-xl text-lg uppercase">
                 Ver Más
               </a>
             </div>

@@ -13,7 +13,7 @@ export default function NewsletterSignup() {
         />
         <button
           type="submit"
-          className=" bg-PinkMain text-white px-5 py-2 rounded-full flex items-center justify-center gap-2"
+          className=" bg-PinkMain hover:bg-CyanMain text-white px-5 py-2 rounded-full flex items-center justify-center gap-2"
         >
           Suscribirse
         </button>

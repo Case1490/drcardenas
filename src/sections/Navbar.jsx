@@ -51,12 +51,12 @@ const Navbar = () => {
 
         <nav className="hidden lg:block lg:w-1/2">
           <ul className="flex justify-between items-center text-lg">
-            <li className="font-bold text-PurpleMain">Inicio</li>
-            <li>Sobre mí</li>
-            <li>Servicios</li>
-            <li className="bg-CyanMain text-white py-2 px-3 rounded-full">
+            <a className="font-bold text-PurpleMain cursor-pointer">Inicio</a>
+            <a className="hover:text-PurpleMain cursor-pointer">Sobre mí</a>
+            <a className="hover:text-PurpleMain cursor-pointer">Servicios</a>
+            <a className="bg-CyanMain hover:bg-CyanMain2 text-white py-2 px-3 rounded-full cursor-pointer">
               Contacto
-            </li>
+            </a>
           </ul>
         </nav>
 

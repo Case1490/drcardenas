@@ -74,7 +74,7 @@ const ContactForm = () => {
         <div className="mt-6">
           <button
             type="submit"
-            className="w-full bg-CyanMain text-white rounded-full py-2 font-semibold transition"
+            className="w-full bg-CyanMain hover:bg-CyanMain2 text-white rounded-full py-2 font-semibold transition"
           >
             Enviar
           </button>

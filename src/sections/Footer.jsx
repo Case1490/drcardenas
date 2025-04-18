@@ -16,16 +16,16 @@ const Footer = () => {
             <img src={Logo} alt="Logo" className="w-full" />
           </div>
           <div className="flex mt-4 space-x-4">
-            <div className="bg-PinkMain rounded-full p-2">
+            <div className="bg-PinkMain hover:bg-CyanMain cursor-pointer rounded-full p-2">
               <FaFacebookF size={25} />
             </div>
-            <div className="bg-PinkMain rounded-full p-2">
+            <div className="bg-PinkMain hover:bg-CyanMain cursor-pointer rounded-full p-2">
               <AiFillInstagram size={25} />
             </div>
-            <div className="bg-PinkMain rounded-full p-2">
+            <div className="bg-PinkMain hover:bg-CyanMain cursor-pointer rounded-full p-2">
               <AiOutlineTikTok size={25} />
             </div>
-            <div className="bg-PinkMain rounded-full p-2">
+            <div className="bg-PinkMain hover:bg-CyanMain cursor-pointer rounded-full p-2">
               <FaLinkedinIn size={25} />
             </div>
           </div>
@@ -42,11 +42,19 @@ const Footer = () => {
           </div>
 
           <div className="flex-1 text-center">
-            <ul className=" space-y-4">
-              <li>Inicio</li>
-              <li>Sobre mí</li>
-              <li>Servicios</li>
-              <li>Contacto</li>
+            <ul className="space-y-4 flex flex-col items-center">
+              <a className="inline-block hover:text-PinkMain cursor-pointer">
+                Inicio
+              </a>
+              <a className="inline-block hover:text-PinkMain cursor-pointer">
+                Sobre mí
+              </a>
+              <a className="inline-block hover:text-PinkMain cursor-pointer">
+                Servicios
+              </a>
+              <a className="inline-block hover:text-PinkMain cursor-pointer">
+                Contacto
+              </a>
             </ul>
           </div>
 
@@ -62,9 +70,15 @@ const Footer = () => {
 
           <div>
             <ul className="flex items-center space-x-6">
-              <li>Nuestros términos</li>
-              <li>Politica de privacidad</li>
-              <li>Cookie Policity</li>
+              <li className="hover:text-PinkMain cursor-pointer">
+                Nuestros términos
+              </li>
+              <li className="hover:text-PinkMain cursor-pointer">
+                Politica de privacidad
+              </li>
+              <li className="hover:text-PinkMain cursor-pointer">
+                Cookie Policity
+              </li>
             </ul>
           </div>
         </div>
