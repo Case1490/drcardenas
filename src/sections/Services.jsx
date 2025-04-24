@@ -140,7 +140,13 @@ const Services = () => {
           </motion.div>
         </div>
 
-        <ButtonService />
+        <a
+          href="https://wa.me/51944542129?text=Hola,%20quisiera%20hacer%20una%20consulta%20sobre%20una%20atención%20oncológica."
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ButtonService />
+        </a>
       </div>
     </div>
   );

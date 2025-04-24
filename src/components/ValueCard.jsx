@@ -6,7 +6,7 @@ const ValueCard = ({ title, paragraph, icon: Icon }) => {
         <h1 className="text-2xl uppercase font-bold">{title}</h1>
       </div>
 
-      <p className="text-justify">{paragraph}</p>
+      <p>{paragraph}</p>
     </div>
   );
 };

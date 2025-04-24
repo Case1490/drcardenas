@@ -1,4 +1,4 @@
-import ContactImage from "../assets/fotos/contacto.png";
+import ContactImage from "../assets/fotos/CALADO 11.png";
 
 import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
@@ -12,7 +12,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 
 const DataOfDoctor = () => {
   return (
-    <div className=" w-5/6 m-auto flex items-center gap-x-10 justify-center">
+    <div className=" w-5/6 m-auto flex items-center justify-center">
       <div className="w-0 lg:w-[400px]">
         <img src={ContactImage} alt="Dr Cardenas" className="w-full" />
       </div>
@@ -24,7 +24,7 @@ const DataOfDoctor = () => {
         </h1>
         <p className="text-center lg:text-start">
           ¡Hola! ¿Tienes preguntas o comentarios? Estoy aquí para ayudarte.
-          ¡Espero saber de ti pronto!
+          ¡Estoy aquí para ayudarte!
         </p>
         {/* FIRST TARGET */}
         <div className="flex items-center gap-x-5 mt-8">

@@ -12,7 +12,7 @@ const Footer = () => {
     <div className=" bg-PurpleMain text-white">
       <div className="w-5/6 m-auto py-5">
         <div className="flex flex-col space-y-8 md:space-y-0 mb-6 sm:flex-row justify-between items-center md:mb-2">
-          <div className="w-[240px]">
+          <div className="w-[100px]">
             <a href="#inicio">
               <img src={Logo} alt="Logo" className="w-full" />
             </a>

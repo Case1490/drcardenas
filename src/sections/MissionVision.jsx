@@ -23,9 +23,10 @@ const MissionVision = () => {
           <p className="text-lg">
             Mi misión como cirujano oncólogo es acompañar al paciente en todo
             momento, no solo durante el diagnóstico, sino también antes, durante
-            y después del tratamiento. Me comprometo a brindar un acompañamiento
-            integral, tanto médico como humano, que le permita sentirse apoyado,
-            comprendido y cuidado en cada etapa de su lucha contra el cáncer.
+            y después del tratamiento. Mi compromiso es brindar un
+            acompañamiento integral, tanto médico como humano, que le permita
+            sentirse apoyado, comprendido y cuidado en cada etapa de su lucha
+            contra el cáncer.
           </p>
         </div>
       </div>
