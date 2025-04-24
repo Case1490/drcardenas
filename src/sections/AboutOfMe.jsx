@@ -39,6 +39,7 @@ const AboutOfMe = () => {
     <div
       className="w-5/6 m-auto flex flex-col xl:flex-row items-center justify-around py-14"
       ref={ref}
+      id="sobre_mi"
     >
       {/* Columna Izquierda - Imagen */}
       <motion.div
@@ -69,8 +70,8 @@ const AboutOfMe = () => {
         transition={{ duration: 1 }}
       >
         <h1 className="text-3xl font-bold mb-2">
-          Entre Tijeras y Esperanzas: La Trayectoria Quirúrgica de un Héroe
-          Contra el Cáncer
+          Entre bisturís y esperanzas la trayectoria quirúrgica de un héroe
+          contra el cáncer
         </h1>
         <p className="text-justify">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam

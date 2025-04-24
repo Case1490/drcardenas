@@ -20,14 +20,12 @@ const MissionVision = () => {
             <GiStairsGoal size={40} />
             <h1 className="text-4xl font-bold">Misión</h1>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            ut eligendi repellendus perferendis maiores accusantium ipsa ad
-            distinctio, quod veniam recusandae possimus nemo hic aut, eum quia
-            eius quaerat vero! repellendus perferendis maiores accusantium ipsa
-            ad distinctio, quod veniam recusandae possimus nemo hic aut, eum
-            quia eius quaerat vero! quod veniam recusandae possimus nemo hic
-            aut, eum quia eius quaerat vero!
+          <p className="text-lg">
+            Mi misión como cirujano oncólogo es acompañar al paciente en todo
+            momento, no solo durante el diagnóstico, sino también antes, durante
+            y después del tratamiento. Me comprometo a brindar un acompañamiento
+            integral, tanto médico como humano, que le permita sentirse apoyado,
+            comprendido y cuidado en cada etapa de su lucha contra el cáncer.
           </p>
         </div>
       </div>
@@ -39,14 +37,13 @@ const MissionVision = () => {
             <MdOutlineInsights size={40} />
             <h1 className="text-4xl font-bold">Visión</h1>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            ut eligendi repellendus perferendis maiores accusantium ipsa ad
-            distinctio, quod veniam recusandae possimus nemo hic aut, eum quia
-            eius quaerat vero! repellendus perferendis maiores accusantium ipsa
-            ad distinctio, quod veniam recusandae possimus nemo hic aut, eum
-            quia eius quaerat vero! quod veniam recusandae possimus nemo hic
-            aut, eum quia eius quaerat vero!
+          <p className="text-lg">
+            Mi visión es vivir en un mundo donde el cáncer no sea sinónimo de
+            muerte, sino una enfermedad que se puede enfrentar con esperanza,
+            tratamiento oportuno y acompañamiento humano. Aspiro a contribuir a
+            una sociedad donde cada paciente tenga acceso a una atención
+            oncológica integral que le permita vivir con dignidad y calidad de
+            vida.
           </p>
         </div>
       </div>

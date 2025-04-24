@@ -1,4 +1,4 @@
-const ValueCard = ({ title, icon: Icon }) => {
+const ValueCard = ({ title, paragraph, icon: Icon }) => {
   return (
     <div className="p-4 rounded-xl shadow-xl border-b-2 border-l-2 border-CyanMain">
       <div className="flex items-center gap-x-2 mb-4 text-CyanMain">
@@ -6,12 +6,7 @@ const ValueCard = ({ title, icon: Icon }) => {
         <h1 className="text-2xl uppercase font-bold">{title}</h1>
       </div>
 
-      <p className="text-justify">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum suscipit
-        iure quod esse non at. Deserunt labore laboriosam adipisci omnis
-        sapiente iure, rerum fuga culpa, et aspernatur ipsum similique
-        laudantium.
-      </p>
+      <p className="text-justify">{paragraph}</p>
     </div>
   );
 };

@@ -12,10 +12,11 @@ const Contact = () => {
             <h1 className=" text-4xl sm:text-5xl uppercase font-bold mb-4">
               Contáctame
             </h1>
-            <p className=" w-[90%] sm:w-[70%] m-auto">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              sapiente assumenda vero dicta debitis velit nulla sunt, reiciendis
-              quia iure.
+            <p className=" w-[90%] sm:w-[70%] m-auto text-lg">
+              ¿Tienes preguntas o necesitas una consulta? Estoy aquí para
+              ayudarte. Completa el formulario y me pondré en contacto contigo
+              lo antes posible. Cada caso es único y merece una atención
+              personalizada.
             </p>
           </div>
         </div>

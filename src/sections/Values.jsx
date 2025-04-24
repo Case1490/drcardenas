@@ -36,7 +36,13 @@ const Values = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <ValueCard title="calidad" icon={MdGrade} />
+          <ValueCard
+            title="calidad"
+            paragraph="Me esfuerzo por ofrecer una atención médica de excelencia, basada en evidencia científica y con un enfoque humano. Cada decisión que tomo está guiada por el compromiso de brindar el mejor resultado posible, cuidando cada detalle del tratamiento para garantizar seguridad, precisión y bienestar al paciente.
+
+"
+            icon={MdGrade}
+          />
         </motion.div>
 
         {/* Desde abajo */}
@@ -46,7 +52,11 @@ const Values = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <ValueCard title="puntualidad" icon={FaStopwatch20} />
+          <ValueCard
+            title="puntualidad"
+            paragraph="Valoro profundamente el tiempo de mis pacientes. La puntualidad no solo demuestra respeto, sino que también permite diagnósticos y tratamientos oportunos. Cumplir con cada cita garantiza una atención continua, organizada y eficiente, factores clave para lograr los mejores resultados en el tratamiento oncológico."
+            icon={FaStopwatch20}
+          />
         </motion.div>
 
         {/* Desde la derecha */}
@@ -56,7 +66,11 @@ const Values = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          <ValueCard title="innovación" icon={FaLightbulb} />
+          <ValueCard
+            title="innovación"
+            paragraph="Estoy en constante actualización y aprendizaje, incorporando técnicas quirúrgicas avanzadas y nuevos enfoques terapéuticos. La innovación no solo mejora los resultados, también abre nuevas oportunidades para enfrentar el cáncer con más eficacia, menos riesgos y una recuperación más rápida para mis pacientes."
+            icon={FaLightbulb}
+          />
         </motion.div>
       </div>
     </div>

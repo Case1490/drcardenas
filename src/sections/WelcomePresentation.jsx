@@ -40,7 +40,7 @@ const WelcomePresentation = () => {
   const imageClass = isMobile ? "mask-image" : "shadow_image";
 
   return (
-    <div className="bgCardenas pt-40 lg:pt-36">
+    <div className="bgCardenas pt-40 lg:pt-36" id="inicio">
       <div className="w-5/6 m-auto">
         <div className="flex flex-col lg:flex-row items-center justify-between space-y-14 lg:space-y-0">
           {/* Columna Izquierda */}
@@ -59,6 +59,9 @@ const WelcomePresentation = () => {
             </p>
             <div className="flex justify-center lg:justify-start items-center mt-8 mb-14 space-x-4">
               <motion.a
+                href="https://wa.me/51944542129?text=Hola,%20quisiera%20hacer%20una%20consulta%20sobre%20una%20atención%20oncológica."
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-CyanMain cursor-pointer hover:bg-CyanMain2 py-2 px-4 rounded-xl text-white font-bold text-lg uppercase"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
@@ -67,6 +70,7 @@ const WelcomePresentation = () => {
               </motion.a>
               <motion.a
                 className="border-CyanMain cursor-pointer hover:bg-slate-100 text-CyanMain font-bold border-2 py-2 px-4 rounded-xl text-lg uppercase"
+                href="#sobre_mi"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >

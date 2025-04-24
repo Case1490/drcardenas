@@ -38,7 +38,7 @@ const Services = () => {
   });
 
   return (
-    <div className="w-5/6 m-auto">
+    <div className="w-5/6 m-auto" id="servicios">
       <div className="py-8 text-center">
         {/* TÍTULO ANIMADO */}
         <motion.h1
@@ -65,7 +65,7 @@ const Services = () => {
           Aquí encontrarás un enfoque dedicado al tratamiento quirúrgico del
           cáncer, con compromiso, precisión y humanidad. Cada servicio está
           pensado para acompañarte en tu camino hacia la recuperación con la
-          mejor atención médica posible.
+          mejor atención médica.
         </motion.p>
 
         <div className="flex flex-col md:flex-row mt-20 mb-10 justify-between items-center">

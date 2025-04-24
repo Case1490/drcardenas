@@ -46,15 +46,37 @@ const Navbar = () => {
     <div className={navbarClass}>
       <div className="w-5/6 m-auto flex items-center justify-between py-2">
         <div className="w-[200px]">
-          <img src={Logo} alt="Logo" className="w-full" />
+          <a href="#inicio">
+            <img src={Logo} alt="Logo" className="w-full" />
+          </a>
         </div>
 
         <nav className="hidden lg:block lg:w-1/2">
           <ul className="flex justify-between items-center text-lg">
-            <a className="font-bold text-PurpleMain cursor-pointer">Inicio</a>
-            <a className="hover:text-PurpleMain cursor-pointer">Sobre mí</a>
-            <a className="hover:text-PurpleMain cursor-pointer">Servicios</a>
-            <a className="bg-CyanMain hover:bg-CyanMain2 text-white py-2 px-3 rounded-full cursor-pointer">
+            <a
+              className="font-bold text-PurpleMain cursor-pointer"
+              href="#inicio"
+            >
+              Inicio
+            </a>
+            <a
+              className="hover:text-PurpleMain cursor-pointer"
+              href="#sobre_mi"
+            >
+              Sobre mí
+            </a>
+            <a
+              className="hover:text-PurpleMain cursor-pointer"
+              href="#servicios"
+            >
+              Servicios
+            </a>
+            <a
+              href="https://wa.me/51944542129?text=Hola,%20quisiera%20hacer%20una%20consulta%20sobre%20una%20atención%20oncológica."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-CyanMain hover:bg-CyanMain2 text-white py-2 px-3 rounded-full cursor-pointer"
+            >
               Contacto
             </a>
           </ul>
