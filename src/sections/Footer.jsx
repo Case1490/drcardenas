@@ -11,8 +11,8 @@ const Footer = () => {
   return (
     <div className=" bg-PurpleMain text-white">
       <div className="w-5/6 m-auto py-5">
-        <div className="flex flex-col space-y-8 md:space-y-0 mb-6 sm:flex-row justify-between items-center md:mb-2">
-          <div className="w-[100px]">
+        <div className="flex flex-col space-y-8 md:space-y-0 sm:flex-row justify-between items-center mb-4 md:mb-0">
+          <div className="w-[160px]">
             <a href="#inicio">
               <img src={Logo} alt="Logo" className="w-full" />
             </a>
@@ -56,10 +56,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <hr />
 
         <div className="flex flex-col md:flex-row space-y-10 md:space-y-0 items-center justify-between py-5">
-          <div className="flex-1 text-justify">
+          <div className="flex-1">
             Comprometido con el bienestar de mis pacientes, ofrezco atención
             oncológica con calidad, calidez y responsabilidad. Juntos,
             enfrentamos el cáncer con esperanza, ciencia, innovación y humanidad

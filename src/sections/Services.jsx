@@ -123,7 +123,7 @@ const Services = () => {
           >
             <CardService
               image={Image5}
-              service="Cirugía reconstructiva y preservación de fertilidad"
+              service="Comprometido con tu salud, presente contigo en cada etapa del camino"
             />
             <CardService
               image={Image6}
@@ -131,7 +131,7 @@ const Services = () => {
             />
             <CardService
               image={Image7}
-              service="Seguimiento postoperatorio y control de recaídas"
+              service="Seguimiento postoperatorio y control"
             />
             <CardService
               image={Image8}

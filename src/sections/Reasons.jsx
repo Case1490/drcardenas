@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Reasons = () => {
   const razones = [
-    "Evaluación precisa del tipo y estadio del cáncer.",
+    "Trato tumores ginecológicos.",
     "Planificación quirúrgica basada en evidencia científica.",
     "Trabajo en equipo multidisciplinario.",
     "Toma de decisiones centradas en la seguridad del paciente.",

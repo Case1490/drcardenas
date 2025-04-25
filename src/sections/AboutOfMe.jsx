@@ -13,11 +13,11 @@ const AboutOfMe = () => {
   const dataItems = [
     {
       icon: <BsFileEarmarkMedicalFill size={25} />,
-      text: "Más 20 años de experiencia quirúrgica",
+      text: "Más de 10 años de experiencia",
     },
     {
       icon: <FaBriefcaseMedical size={25} />,
-      text: "Especialista en oncología quirúrgica",
+      text: "Especialista en cirugía oncológica",
     },
     {
       icon: <RiTeamFill size={25} />,
@@ -74,12 +74,21 @@ const AboutOfMe = () => {
           contra el cáncer
         </h1>
         <p className="text-justify">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-          dolorum vero iure. Voluptas in iusto, dolorem magni harum commodi
-          libero dicta accusantium nihil labore voluptates. Earum quaerat rem
-          voluptates reprehenderit. Voluptas in iusto, dolorem magni harum
-          commodi libero dicta accusantium nihil labore voluptates. Earum
-          quaerat rem voluptates reprehenderit.
+          Médico especialista en cirugía oncológica, con amplia experiencia en
+          el diagnóstico y tratamiento de neoplasias malignas ginecológicas.
+          Enfoque innovador y personalizado para mejorar la calidad de vida de
+          los pacientes. Apasionado por mejorar la calidad de vida de los
+          pacientes mediante enfoques quirúrgicos innovadores y tratamientos
+          personalizados con la atención médica excepcional y tratamientos
+          vanguardistas a pacientes. Formado en el reconocido Instituto Nacional
+          de Enfermedades Neoplásicas en Perú, con capacitación en ginecología
+          oncológica y en técnicas de cirugía mínimamente invasiva. Con una
+          maestría en medicina y actualmente cursando un MBA, fusiono mis
+          habilidades clínicas y de liderazgo para impulsar el progreso en mi
+          campo laboral. Como médico asistente, enfoco mi trabajo en
+          colaboración interdisciplinaria, investigacion y la busqueda constate
+          de avances médicos que marquen la diferencia en la vida de mis
+          pacientes y la comunidad.
         </p>
 
         <div className="mt-8 grid md:grid-cols-2 place-content-center place-items-center gap-4">
