@@ -32,8 +32,8 @@ const DataOfDoctor = () => {
             <FaLocationDot size={35} />
           </div>
           <div>
-            <h1 className="text-xl  font-bold mb-1">Head office</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <h1 className="text-xl  font-bold mb-1">Visítame en</h1>
+            <p>Av. Angamos este 2506. Oficina 402. Frente al Real Plaza</p>
           </div>
         </div>
 

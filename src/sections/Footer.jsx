@@ -109,13 +109,10 @@ const Footer = () => {
           <div>
             <ul className="flex items-center space-x-6">
               <li className="hover:text-PinkMain cursor-pointer">
-                Nuestros términos
+                Términos y Condiciones
               </li>
               <li className="hover:text-PinkMain cursor-pointer">
                 Politica de privacidad
-              </li>
-              <li className="hover:text-PinkMain cursor-pointer">
-                Cookie Policity
               </li>
             </ul>
           </div>
