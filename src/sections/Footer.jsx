@@ -1,5 +1,7 @@
 import Logo from "../assets/logo_blanco.png";
 
+import { useState } from "react";
+
 // ICONS RED SOCIAL
 import { FaFacebookF } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
@@ -8,6 +10,20 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import NewsletterSignup from "../components/NewsletterSignup";
 
 const Footer = () => {
+  const [modalContent, setModalContent] = useState(null);
+
+  const openModal = (type) => {
+    if (type === "terms") {
+      setModalContent("terms");
+    } else if (type === "privacy") {
+      setModalContent("privacy");
+    }
+  };
+
+  const closeModal = () => {
+    setModalContent(null);
+  };
+
   return (
     <div className=" bg-PurpleMain text-white">
       <div className="w-5/6 m-auto py-5">
@@ -108,16 +124,54 @@ const Footer = () => {
 
           <div>
             <ul className="flex items-center space-x-6">
-              <li className="hover:text-PinkMain cursor-pointer">
+              <li
+                onClick={() => openModal("terms")}
+                className="hover:text-PinkMain cursor-pointer"
+              >
                 Términos y Condiciones
               </li>
-              <li className="hover:text-PinkMain cursor-pointer">
-                Politica de privacidad
+              <li
+                onClick={() => openModal("privacy")}
+                className="hover:text-PinkMain cursor-pointer"
+              >
+                Política de privacidad
               </li>
             </ul>
           </div>
         </div>
       </div>
+      {modalContent && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
+          <div className="bg-white text-black w-[90%] md:w-[60%] max-h-[80vh] overflow-y-auto p-6 rounded-lg relative">
+            <button
+              onClick={closeModal}
+              className="absolute top-2 right-4 text-xl font-bold text-gray-600 hover:text-red-500"
+            >
+              &times;
+            </button>
+            <h2 className="text-2xl font-semibold mb-4">
+              {modalContent === "terms"
+                ? "Términos y Condiciones"
+                : "Política de Privacidad"}
+            </h2>
+            <p className="text-sm leading-6">
+              {modalContent === "terms" ? (
+                <>
+                  Este sitio web es informativo. Al utilizarlo, aceptas no
+                  realizar mal uso del contenido ni compartir información sin
+                  autorización. Todos los derechos reservados.
+                </>
+              ) : (
+                <>
+                  Este sitio respeta tu privacidad. La información que ingresas
+                  en el formulario solo será utilizada para responder tu
+                  consulta médica y no será compartida con terceros.
+                </>
+              )}
+            </p>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
