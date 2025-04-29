@@ -1,6 +1,6 @@
 export default function NewsletterSignup() {
   return (
-    <div className=" text-white p-6 rounded-lg w-full max-w-md mx-auto">
+    <div className=" text-white p-6 rounded-lg w-[80%] sm:w-full max-w-md mx-auto">
       <h2 className="text-xl font-semibold mb-2">Suscríbete</h2>
       <p className="text-sm mb-4">
         Obtenga novedades exclusivas suscribiéndose a nuestro boletín.

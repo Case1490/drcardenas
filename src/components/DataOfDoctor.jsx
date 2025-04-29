@@ -27,23 +27,23 @@ const DataOfDoctor = () => {
           ¡Estoy aquí para ayudarte!
         </p>
         {/* FIRST TARGET */}
-        <div className="flex items-center gap-x-5 mt-8">
+        <div className="flex flex-col sm:flex-row gap-y-4 sm:gap-y-0 items-center gap-x-5 mt-8">
           <div className=" bg-PinkMain flex items-center justify-center text-white rounded-full p-3">
-            <FaLocationDot size={35} />
+            <FaLocationDot size={30} />
           </div>
-          <div>
-            <h1 className="text-xl  font-bold mb-1">Visítame en</h1>
-            <p>Av. Angamos este 2506. Oficina 402. Frente al Real Plaza</p>
+          <div className="text-center sm:text-left">
+            <h1 className="text-lg sm:text-xl  font-bold mb-1">Visítame en</h1>
+            <p>Av. Angamos este 2506. Oficina 402. Frente al Real Plaza</p>
           </div>
         </div>
 
         {/* SECOND TARGET */}
-        <div className="flex items-center gap-x-5 mt-8">
+        <div className="flex flex-col sm:flex-row gap-y-4 sm:gap-y-0 items-center gap-x-5 mt-8">
           <div className=" bg-PinkMain flex items-center justify-center text-white rounded-full p-3">
-            <MdEmail size={35} />
+            <MdEmail size={30} />
           </div>
-          <div>
-            <h1 className="text-xl font-bold mb-1">
+          <div className="text-center sm:text-left">
+            <h1 className="text-lg sm:text-xl font-bold mb-1">
               Envíame un correo electrónico
             </h1>
             <p>fcescalante@gmail.com</p>
@@ -51,12 +51,12 @@ const DataOfDoctor = () => {
         </div>
 
         {/* THIRD TARGET */}
-        <div className="flex items-center gap-x-5 mt-8">
+        <div className="flex flex-col sm:flex-row gap-y-4 sm:gap-y-0 items-center gap-x-5 mt-8">
           <div className=" bg-PinkMain flex items-center justify-center text-white rounded-full p-3">
-            <FaPhoneAlt size={35} />
+            <FaPhoneAlt size={30} />
           </div>
-          <div>
-            <h1 className="text-xl font-bold mb-1">Llámame</h1>
+          <div className="text-center sm:text-left">
+            <h1 className="text-lg sm:text-xl font-bold mb-1">Llámame</h1>
             <p>+51 944 542 129</p>
           </div>
         </div>

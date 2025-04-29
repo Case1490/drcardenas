@@ -73,7 +73,7 @@ const AboutOfMe = () => {
           Entre bisturís y esperanzas la trayectoria quirúrgica de un héroe
           contra el cáncer
         </h1>
-        <p className="text-justify">
+        <p>
           Médico especialista en cirugía oncológica, con amplia experiencia en
           el diagnóstico y tratamiento de neoplasias malignas ginecológicas.
           Enfoque innovador y personalizado para mejorar la calidad de vida de

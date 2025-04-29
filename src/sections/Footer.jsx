@@ -112,7 +112,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="flex-1">
+          <div className="sm:flex-1">
             <NewsletterSignup />
           </div>
         </div>
